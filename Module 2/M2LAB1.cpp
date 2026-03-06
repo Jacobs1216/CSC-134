@@ -25,7 +25,7 @@ int main (){
     //input for crate dimensions
     cout << "Enter the dimensions for the crate (in feet)" << endl;
     cout << "input length" << endl;
-    cin >> lenght;
+    cin >> length;
     cout << "input width" << endl;
     cin >> width;
     cout << "input height" << endl;
