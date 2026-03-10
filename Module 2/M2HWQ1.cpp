@@ -7,14 +7,16 @@ M2HWQ1 - BANK ACCOUNT
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
 int main() {
     
-    cout << setprecision(2) << fixed << endl;
+    cout << setprecision(2) << fixed;
 
     //variables
+    string name;
     int accountNumber = 683654;
     double startingBalance = 2656.53;
     double finalBalance;
@@ -32,7 +34,7 @@ int main() {
     cin >> withdrawal;
 
     //calculate final balance
-    finalBalance = startingBalance + deposit - withdrawal
+    finalBalance = startingBalance + deposit - withdrawal;
 
     //display results
     cout << "------Account Statement------" << endl;
