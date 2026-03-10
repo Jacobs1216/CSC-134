@@ -12,11 +12,11 @@ using namespace std;
 
 int main() {
     
-    cout << setpresicion(2) << fixed << endl;
+    cout << setprecision(2) << fixed << endl;
 
     //variables
     int accountNumber = 683654;
-    double startingBalance = 2656.53
+    double startingBalance = 2656.53;
     double finalBalance;
     double deposit;
     double withdrawal;
