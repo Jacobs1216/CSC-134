@@ -40,7 +40,7 @@ int main() {
     cout << "------Account Statement------" << endl;
     cout << "Owner Name: " << name << endl;
     cout << "Account number: " << accountNumber << endl;
-    cout << "Account Balance: " << finalBalance << endl;
+    cout << "Account Balance: $" << finalBalance << endl;
 
     return 0;
 
