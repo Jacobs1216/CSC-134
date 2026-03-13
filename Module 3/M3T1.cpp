@@ -31,6 +31,16 @@ int main () {
     cout << "The first rectangle has a area of " << area1 << endl;
     cout << "The second rectangle has a area of " << area2 << endl;
 
+    //find which is bigger
+    if (area1 > area2) {
+        cout << "rectangle one is bigger" << endl;
+    }
+    if (area1 < area2) {
+        cout << "rectangle two is bigger" << endl;
+    }
+    if (area1 == area2) {
+        cout << "they are the same size" << endl;
+    }
 
     return 0;
 }
