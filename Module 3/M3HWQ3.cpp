@@ -14,7 +14,7 @@ int main() {
     //variables
     string choice;
     
-    // PROMPT
+    // INITAL PROMPT
     cout << "You're a Formula 1 driver currently racing as it begins to rain." << endl;
     cout << "Choice 1: Pit and change to wet weather tires." << endl;
     cout << "(You may lose current position from pitting and will have a slower top speed)" << endl;
@@ -23,20 +23,27 @@ int main() {
     cout << "To choose enter 1 or 2" << endl;
     cin >> choice;
 
-    //CHOICE 1
+
     if (choice == "1") {
 
         string choice1;
 
         cout << "Everyone else decided to change tires aswell so you hold current postion" << endl;
+        // 2ND QUESTION
         cout << "Now youre in 2nd place in a battle for first how do you handle the last turn before the finsh line?" << endl;
         cout << "choice 1: try to out break your opponent and overtake in the corner" << endl;
-        cout << "Choise 2: wait until after the corner and try to pass in the straight right before the finsih line" << endl;
+        cout << "Choice 2: wait until after the corner and try to pass in the straight right before the finsih line" << endl;
         cin >> choice1;
 
     }
     
+    else if (choice == "2") {
 
+        cout << "The rain continues on throughout the race" << endl;
+        cout << "You hold P1 for awhile you eventually make a mistake and spin out off the track taking you out of the race." << endl;
+        cout << "GAMEOVER" << endl;
+
+    }
 
 
     return 0;
