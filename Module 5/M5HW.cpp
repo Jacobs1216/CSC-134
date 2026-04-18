@@ -18,31 +18,30 @@ void areaCalculator();
 void distanceCalculator();
 
 void rainfall() {
-    string month1, month2, month3
-    double rain1, rain2, rain3
+    string month1, month2, month3;
+    double rain1, rain2, rain3, average;
 
     cout << "enter month: " << endl;
-    cin >> month1
+    cin >> month1;
     cout << "enter rainfall for " << month1 << endl;
-    cin >> rain1
+    cin >> rain1;
 
     cout << "enter month: " << endl;
-    cin >> month2
-    cout << "enter rainfall for " << month1 << endl;
-    cin >> rain2
+    cin >> month2;
+    cout << "enter rainfall for " << month2 << endl;
+    cin >> rain2;
 
     cout << "enter month: " << endl;
-    cin >> month3
-    cout << "enter rainfall for " << month1 << endl;
-    cin >> rain3
+    cin >> month3;
+    cout << "enter rainfall for " << month3 << endl;
+    cin >> rain3;
 
-    double avg = (r1 + r2 + r3) / 3.0;
+    average = (rain1 + rain2 + rain3) / 3.0;
 
-    cout << fixed << setprecision(2)
-    cout << "The average rainfall for " << month1 << ", " << month2 << ", and" << month3
-         << "is " << avg << " inches." << endl;
+    cout << fixed << setprecision(2);
+    cout << "The average rainfall for " << month1 << ", " << month2 << ", and " << month3 
+        << "is " << average << " inches." << endl; 
 
-return 0
 }
 
 void volumeCalculator() {
